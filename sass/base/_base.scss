@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    background-color: $background-color;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: $colour-tertiary;
+}
+
+@media screen and (max-width) {
+    h2 {
+        font-size: 1.3rem;
+    }
+}
+
+section {
+    margin-bottom: 8rem;
+    padding-top: 1rem;
+}

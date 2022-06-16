@@ -1,0 +1,20 @@
+.btn {
+    border: none;
+    height: 2rem;
+    padding: 0 3rem 0 3rem;
+    border-radius: 5px;
+    background-color: $colour-secondary;
+    color: #fff;
+    cursor: pointer;
+}
+
+.prices__button {
+    background-color: $colour-secondary;
+    opacity: 80%;
+    padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+    color: $background-color;
+    font-family: 'Cinzel Decorative', cursive;
+    &:hover {
+        background: linear-gradient($colour-secondary, $colour-primary);
+    }
+}
