@@ -1,20 +1,32 @@
-.btn {
-    border: none;
-    height: 2rem;
-    padding: 0 3rem 0 3rem;
-    border-radius: 5px;
-    background-color: $colour-secondary;
-    color: #fff;
-    cursor: pointer;
-}
+// .btn {
+//     border: none;
+//     height: 2rem;
+//     padding: 0 3rem 0 3rem;
+//     border-radius: 5px;
+//     background-color: $colour-secondary;
+//     color: #fff;
+//     cursor: pointer;
+//     transition: 300ms ease-in-out;
+//     &:hover {
+//         background: $background-color;
+//         color: $colour-secondary;
+//         border: 1px solid $colour-secondary;
+//     }
+// }
 
-.prices__button {
+.btn {
     background-color: $colour-secondary;
     opacity: 80%;
-    padding: 0.3rem 0.6rem 0.3rem 0.6rem;
-    color: $background-color;
-    font-family: 'Cinzel Decorative', cursive;
+    padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
     &:hover {
-        background: linear-gradient($colour-secondary, $colour-primary);
+        background: $background-color;
+        color: $colour-secondary;
+        border: 1px solid $colour-secondary;
     }
 }

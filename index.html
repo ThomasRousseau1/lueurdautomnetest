@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Lueur d'automne, guidance spirituelle à Reims.">
+    <meta name="description" content="Tirage de cartes à domicile ou à distance sans jugement, à l'écoute de vos questionnements.">
     <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Cinzel&family=Cinzel+Decorative&family=Cormorant:wght@500&family=DM+Serif+Display&family=Lato&family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Cormorant:wght@500&family=DM+Serif+Display&family=Lato&family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Cormorant:wght@500&family=Lato&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./splide/splide-core.min.css">
     <link rel="stylesheet" href="./splide/splide.min.css">
@@ -14,13 +15,13 @@
 </head>
 <body>
     <header class="header">
-        <img class="header__logo" src="ressources/images/logotest.jpg">
+        <img class="header__logo" src="ressources/images/logotest.jpg" alt="">
         <!-- Mobile Nav -->
         <div class="header__burgerNav" id="burgerNav">
             <a class="header__closeBtn" id="close-btn"><i class="fa-solid fa-xmark"></i></a>
                 <a class="header__navlinks" href="">ACCUEIL</a>
                 <a class="header__navlinks" href="#description">PRÉSENTATION</a>
-                <a class="header__navlinks" href="#prices">PRÉSTATIONS</a>
+                <a class="header__navlinks" href="#prices">TARIFS</a>
                 <a class="header__navlinks" href="#deontology">DÉONTOLOGIE</a>
                 <a class="header__navlinks" href="#avis">AVIS</a>
                 <a class="header__navlinks" href="#contact">CONTACT</a>     
@@ -36,7 +37,7 @@
         <div class="header__nav">
             <a class="header__navlinks" href="">ACCUEIL</a>
             <a class="header__navlinks" href="#description">PRÉSENTATION</a>
-            <a class="header__navlinks" href="#prices">PRÉSTATIONS</a>
+            <a class="header__navlinks" href="#prices">TARIFS</a>
             <a class="header__navlinks" href="#deontology">DÉONTOLOGIE</a>
             <a class="header__navlinks" href="#avis">AVIS</a>
             <a class="header__navlinks" href="#contact">CONTACT</a>
@@ -44,11 +45,11 @@
     </header>
     <main class="main">
         <section class="description" id="description">
-                <img class="description__image" src="./ressources/images/marion-botella-rII0mAgBHpY-unsplash.jpg">
+                <img class="description__image" src="./ressources/images/marion-botella-rII0mAgBHpY-unsplash.jpg" alt="">
             <h1>Lueur d'automnE</h1>
             <div class="description__container">
-                <h2>DescriptioN</h2>
-                <p>
+                <h2 class="description__title">BienvenuE</h2>
+                <p class="description__text">
                     Le but des guidances que je propose est de répondre à tes interrogations, de mettre en lumière les blocages, 
                     et de t'apporter des conseils pour t'aider à avancer. Ça peut aussi t'aider à anticiper les événements à venir,
                      ou encore remettre certaines choses en question. 
@@ -67,7 +68,7 @@
             <div class="prices__container">
                 <div class="prices__block">
                     <div class="prices__image">
-                        <img src="ressources/images/jen-theodore-V9ddtC9ZNUc-unsplash.jpg">
+                        <img src="ressources/images/jen-theodore-V9ddtC9ZNUc-unsplash.jpg" alt="">
                         <h3>Presta 1</h3>
                         <p>35€</p>
                     </div>
@@ -77,12 +78,12 @@
                         <p>- Blanditiis quibusdam voluptatem </p>
                         <p>- minus nostrum cum officia error? </p>
                         <p>- Quis, expedita voluptas autem error</p>
-                        <a class="prices__button" href="#contact">Contact</a>
+                        <a class="btn" href="#contact">Contact</a>
                     </div>
                 </div>
                 <div class="prices__block">
                     <div class="prices__image">
-                        <img src="ressources/images/viva-luna-studios-lbY2IVfO9bc-unsplash.jpg">
+                        <img src="ressources/images/viva-luna-studios-lbY2IVfO9bc-unsplash.jpg" alt="">
                         <h3>Presta 2</h3>
                         <p>55€</p>
                     </div>
@@ -92,7 +93,7 @@
                         <p>- Blanditiis quibusdam voluptatem </p>
                         <p>- minus nostrum cum officia error? </p>
                         <p>- Quis, expedita voluptas autem error</p>
-                        <a class="prices__button" href="#contact">Contact</a>
+                        <a class="btn" href="#contact">Contact</a>
                     </div>
                 </div>
             </div>
@@ -109,7 +110,7 @@
         </section>
         <section class="avis" id="avis">
             <div class="eight">
-                <h2>AviS</h2>
+                <h2 class="avis__title">AviS</h2>
             </div>
             <!-- utiliser splide js pour le caroussel -->
             <div class="splide">
@@ -144,7 +145,7 @@
               </div>
         </section>
         <section class="contact" id="contact">
-            <img class="contact__img" src="ressources/images/viva-luna-studios-lbY2IVfO9bc-unsplash.jpg">
+            <img class="contact__img" src="ressources/images/viva-luna-studios-lbY2IVfO9bc-unsplash.jpg" alt="">
             <h2>EntronS en contacT</h2>
             <div class="contact__container">
                 <form action="">
@@ -155,18 +156,16 @@
                     <input type="text" placeholder="Mail">
                     <span class="span"></span>
                     <textarea name="" id="" cols="30" rows="10" placeholder="Objet de votre demande"></textarea>
+                    <a class="btn" id="contact-btn">ENVOYER</a>
                 </form>
-                <div class="button-div">
-                    <button class="btn">ENVOYER</button>
-                </div>
             </div>
         </section>
     </main>
     <footer class="footer">
         <div class="footer__links">
-            <a href="">Plan du site</a>
-            <a href="">Mentions Légales</a>
-            <a href="">Conditions Générales de Vente</a>
+            <a href="plandusite.html">Plan du site</a>
+            <a href="mentionslegales.html">Mentions Légales</a>
+            <a href="cgv.html">Conditions Générales de Vente</a>
         </div>
         <div class="footer__socials">
             <i class="fa-brands fa-instagram"></i>
@@ -176,8 +175,13 @@
     <div class="post-footer">
         <p>@2022 Thomas Rousseau</p>
     </div>
+    <!-- SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
     <script src="https://kit.fontawesome.com/cf86efe1b9.js" crossorigin="anonymous"></script>
     <script src="./splide/splide.min.js"></script>
+    <script src="animations.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

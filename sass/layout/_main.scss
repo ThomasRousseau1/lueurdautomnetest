@@ -1,5 +1,6 @@
 //Partie description
 .description {
+    padding: 0;
     &__image {
         position: relative;
         width: 100%;
@@ -22,18 +23,18 @@ h1 {
     white-space: nowrap;
     font-size: 3rem;
     color: $colour-primary;
-    margin: 15rem 0 8rem 0;
+    margin: 13rem 0 8rem 0;
     animation: apparition 1s ease-in;
 }
 
-@keyframes apparition {
-    0% {
-        opacity: 20%;
-    }
-    100% {
-        opacity: 100%;
-    }
-}
+// @keyframes apparition {
+//     0% {
+//         opacity: 20%;
+//     }
+//     100% {
+//         opacity: 100%;
+//     }
+// }
 
 
 //Partie tarifs
@@ -176,15 +177,13 @@ h1 {
         display: flex;
         flex-direction: column;
         width: 20rem;
+        text-align: center;
         & input {
             height: 2rem;
         }
         & input:focus {
             outline: none;
         }
-        & input, textarea::placeholder {
-            color: $colour-primary
-          }
         & input, textarea {
             margin-bottom: 1rem;
             border: none;
@@ -194,12 +193,6 @@ h1 {
     &__container {
         position: relative;
         margin-left: 2rem;
-    }
-    .button-div {
-        margin: 0 ;
-        position: absolute;
-        text-align: center;
-        transform: translateX(50%);
     }
 }
 
